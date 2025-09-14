@@ -19,7 +19,7 @@ export default async function Home() {
               Welcome to My Ecommerce
             </h2>
             <p className="text-neutral-600">
-              Discover the latest products at the best prices.
+              Discover produce from all over the Jamaica.
             </p>
             <Button
               asChild
@@ -30,7 +30,7 @@ export default async function Home() {
                 href="/products"
                 className="inline-flex items-center justify-center rounded-full px-6 py-3"
               >
-                Browse All Products
+                Browse All Produce
               </Link>
             </Button>
           </div>
