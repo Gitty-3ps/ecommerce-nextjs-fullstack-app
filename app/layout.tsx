@@ -3,8 +3,8 @@ import "./globals.css";
 import { Navbar } from "@/components/navbar";
 
 export const metadata: Metadata = {
-  title: "MyStore",
-  description: "Buy cool products",
+  title: "My AgriStore",
+  description: "Buy good produce",
 };
 
 export default function RootLayout({
@@ -16,7 +16,9 @@ export default function RootLayout({
     <html lang="en">
       <body className="flex min-h-full flex-col bg-white">
         <Navbar />
-        <main className="flex-grow container mx-auto px-4 py-8">{children}</main>
+        <main className="flex-grow container mx-auto px-4 py-8">
+          {children}
+        </main>
       </body>
     </html>
   );
