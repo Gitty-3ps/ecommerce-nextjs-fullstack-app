@@ -34,6 +34,7 @@ export const Carousel = ({ products }: Props) => {
             layout="fill"
             objectFit="cover"
             className="transition-opacity duration-500 ease-in-out"
+            priority={true}
           />
         </div>
       )}
